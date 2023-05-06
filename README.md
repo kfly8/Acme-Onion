@@ -1,21 +1,23 @@
-[![Actions Status](https://github.com/kfly8/Acme-Onion/actions/workflows/test.yml/badge.svg)](https://github.com/kfly8/Acme-Onion/actions)
+[![Actions Status](https://github.com/kfly8/Acme-Onion/actions/workflows/test.yml/badge.svg)](https://github.com/kfly8/Acme-Onion/actions) [![MetaCPAN Release](https://badge.fury.io/pl/Acme-Onion.svg)](https://metacpan.org/release/Acme-Onion)
 # NAME
 
 Acme::Onion - .🧅 file extension in Perl.
 
 # SYNOPSIS
 
-    ❯ tree examples/lib
-    examples/lib
-    └── Hello.🧅
+```perl
+❯ tree examples/lib
+examples/lib
+└── Hello.🧅
 
-    ❯ cat examples/lib/Hello.🧅
-    package Hello;
-    sub onion { 'Hello 🧅' }
-    1;
+❯ cat examples/lib/Hello.🧅
+package Hello;
+sub onion { 'Hello 🧅' }
+1;
 
-    ❯ perl -Iexamples/lib -MAcme::Onion -MHello -E 'say Hello->onion';
-    Hello 🧅
+❯ perl -Iexamples/lib -MAcme::Onion -MHello -E 'say Hello->onion';
+Hello 🧅
+```
 
 # DESCRIPTION
 
