@@ -1,4 +1,4 @@
-
+[![Actions Status](https://github.com/kfly8/Acme-Onion/actions/workflows/test.yml/badge.svg)](https://github.com/kfly8/Acme-Onion/actions)
 # NAME
 
 Acme::Onion - .🧅 file extension in Perl.
