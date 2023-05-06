@@ -44,7 +44,7 @@ Acme::Onion - .🧅 file extension in Perl.
     sub onion { 'Hello 🧅' }
     1;
 
-    ❯ perl -Iexamples/lib -MHello -E 'say Hello->onion';
+    ❯ perl -Iexamples/lib -MAcme::Onion -MHello -E 'say Hello->onion';
     Hello 🧅
 
 =head1 DESCRIPTION
