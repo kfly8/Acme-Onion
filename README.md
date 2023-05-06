@@ -1,15 +1,25 @@
 
 # NAME
 
-Acme::Onion - It's new $module
+Acme::Onion - .🧅 file extension in Perl.
 
 # SYNOPSIS
 
-    use Acme::Onion;
+    ❯ tree examples/lib
+    examples/lib
+    └── Hello.🧅
+
+    ❯ cat examples/lib/Hello.🧅
+    package Hello;
+    sub onion { 'Hello 🧅' }
+    1;
+
+    ❯ perl -Iexamples/lib -MHello -E 'say Hello->onion';
+    Hello 🧅
 
 # DESCRIPTION
 
-Acme::Onion is ...
+Acme::Onion is a Perl module designed to enable the use of .🧅 file extension alongside traditional .pm files. It provides a simple, yet unique way to organize and manage your Perl code.
 
 # LICENSE
 
